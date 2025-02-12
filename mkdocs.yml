@@ -1,0 +1,91 @@
+site_name: Techexcel BackOffice Doc
+site_description: Enhanced documentation for Lucee CFML Engine
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+
+plugins:
+  - search
+
+nav:
+  - Getting Started:
+    - Overview: index.md
+    - First Steps:
+      - Quick Start: getting-started/first-steps/quick-start.md
+      - Installation: getting-started/first-steps/installation.md
+      - Configuration: getting-started/first-steps/configuration.md
+    - Requirements:
+      - Hardware: getting-started/system-requirements/hardware.md
+      - Software: getting-started/system-requirements/software.md
+  # - Docs Syntax:
+  #   - Overview: syntax/index.md
+  #   - Syntax:
+  #     - Basic Syntax: syntax/language/basic.md
+  #     -  Features: syntax/language/advanced.md
+  #     - Code Examples:
+  #       - Basic Examples: syntax/language/examples/basic.md
+  #       - Advanced Examples: syntax/language/examples/advanced.md
+    - Reference Tables:
+      - Operators: syntax/reference/operators.md
+      - Functions: syntax/reference/functions.md
+  - Reference:
+    - Overview: reference/index.md
+    - Functions:
+      - Array Functions: reference/functions/array.md
+      - String Functions: reference/functions/string.md
+      - Date Functions: reference/functions/date.md
+    # - Tags:
+    #   - Core Tags: reference/tags/core.md
+    #   - Custom Tags: reference/tags/custom.md
+  - Tutorials:
+    - Overview: tutorials/index.md
+    - Beginner:
+      - First App: tutorials/beginner/first-app.md
+      - Database: tutorials/beginner/database.md
+    - Advanced:
+      - Security: tutorials/advanced/security.md
+      - Performance: tutorials/advanced/performance.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js

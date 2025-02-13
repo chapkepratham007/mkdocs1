@@ -1,5 +1,7 @@
 site_name: Techexcel BackOffice Doc
 site_description: Enhanced documentation for Lucee CFML Engine
+site_url: https://chapkepratham007.github.io/mkdocs1/
+repo_url: https://github.com/chapkepratham007/mkdocs1
 theme:
   name: material
   palette:

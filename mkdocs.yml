@@ -2,6 +2,7 @@ site_name: Techexcel BackOffice Doc
 site_description: Enhanced documentation for Lucee CFML Engine
 site_url: https://chapkepratham007.github.io/mkdocs1/
 repo_url: https://github.com/chapkepratham007/mkdocs1
+
 theme:
   name: material
   palette:
@@ -48,8 +49,8 @@ plugins:
   - search
 
 nav:
+  - Home: index.md
   - Getting Started:
-    - Overview: index.md
     - First Steps:
       - Quick Start: getting-started/first-steps/quick-start.md
       - Installation: getting-started/first-steps/installation.md
@@ -57,34 +58,9 @@ nav:
     - Requirements:
       - Hardware: getting-started/system-requirements/hardware.md
       - Software: getting-started/system-requirements/software.md
-  # - Docs Syntax:
-  #   - Overview: syntax/index.md
-  #   - Syntax:
-  #     - Basic Syntax: syntax/language/basic.md
-  #     -  Features: syntax/language/advanced.md
-  #     - Code Examples:
-  #       - Basic Examples: syntax/language/examples/basic.md
-  #       - Advanced Examples: syntax/language/examples/advanced.md
     - Reference Tables:
       - Operators: syntax/reference/operators.md
       - Functions: syntax/reference/functions.md
-  - Reference:
-    - Overview: reference/index.md
-    - Functions:
-      - Array Functions: reference/functions/array.md
-      - String Functions: reference/functions/string.md
-      - Date Functions: reference/functions/date.md
-    # - Tags:
-    #   - Core Tags: reference/tags/core.md
-    #   - Custom Tags: reference/tags/custom.md
-  - Tutorials:
-    - Overview: tutorials/index.md
-    - Beginner:
-      - First App: tutorials/beginner/first-app.md
-      - Database: tutorials/beginner/database.md
-    - Advanced:
-      - Security: tutorials/advanced/security.md
-      - Performance: tutorials/advanced/performance.md
 
 extra_css:
   - stylesheets/extra.css

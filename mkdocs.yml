@@ -7,14 +7,14 @@ theme:
   name: material
   palette:
     - scheme: default
-      primary: light blue
-      accent: light blue
+      primary: #4051b5
+      accent: #4051b5
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: light blue
-      accent: light blue
+      primary: #4051b5
+      accent: #4051b5
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -23,7 +23,7 @@ theme:
     code: Roboto Mono
   features:
     - navigation.sections
-    - navigation.expand
+   # - navigation.expand
     - navigation.indexes
     - navigation.top
     - search.suggest
